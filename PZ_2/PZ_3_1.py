@@ -7,3 +7,4 @@ try:
 except ValueError:
     print("ошибка. введите число")
 
+
