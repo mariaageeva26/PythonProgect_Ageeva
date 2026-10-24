@@ -1,10 +1,13 @@
 #Дано целое число А. Проверить истинность высказывания: "Число А является положительным".
-a = int(input("Введите число А: "))
-try:
-    num = int(a)
-except ValueError:
-    print("ошибка. введите число")
-    exit()
-pol = num > 0
+while True:
+    try:
+        a = int(input("Введите целое число а: "))
+        break
+    except ValueError:
+        print("Ошибка. Введите целое число")
+if a > 0:
+    print("истина")
+else:
+    print("ложь")
 
 
